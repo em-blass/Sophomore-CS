@@ -13,3 +13,5 @@ X (1) navbar changes after visited
 - (1) website contains list page
 X (1) list page uses custom bullets
 => -1: not implemented
+
+7/10
