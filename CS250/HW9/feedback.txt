@@ -11,3 +11,5 @@
 - misses displayed to user dynamically
 - after all revealed: alerts "winner" if matches > misses
 - after all revealed: alerts "loser" otherwise
+
+10/10
