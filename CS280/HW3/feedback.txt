@@ -1,0 +1,80 @@
+100 points total
+
+---------------------------------------
+My output: 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+with a cities.txt file with
+
+Houston
+Miami
+Portland
+Oshkosh
+Denver
+Gunnison
+Seattle
+NewYork
+
+Followed by commands:
+
+1 // add Dallas after Denver
+Dallas
+Denver
+1 // add Madison after Houston
+Madison
+Houston
+2 // delete Houston (head)
+Houston
+2 // delete Seattle (middle)
+Seattle
+3 // send message from Oshkosh (middle)
+thisIsAMessage
+Oshkosh
+2 // delete NewYork (tail)
+NewYork
+3 // send message from Denver (middle)
+NewMessage
+Denver
+3 //send message from Madison (head)
+TEST
+Madison
+3 // send message from Gunnison (tail)
+TEST2
+Gunnison
+4
+
+I get output:
+
+====LIST FORWARD====
+Madison has message: TEST
+Miami has message: TEST
+Portland has message: thisIsAMessage
+Oshkosh has message: NewMessage
+Denver has message: NewMessage
+Dallas has message: TEST2
+Gunnison has message: TEST2
+====LIST BACKWARD====
+Gunnison has message: TEST2
+Dallas has message: TEST2
+Denver has message: NewMessage
+Oshkosh has message: NewMessage
+Portland has message: thisIsAMessage
+Miami has message: TEST
+Madison has message: TEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
+
+
+(15/15) code compiles
+(10/10) code is clean and readable
+(5/5) constructor is implemented properly
+(10/10) code adds cities from file into list
+(10/10) addCity works properly
+(10/10) deleteCity works properly
+(8/10) sendMessage works properly
+(10/10) deleteList is implemented properly
+(10/10) printListBack is implemented properly
+(8/10) output matches my own
+-no message for head and tail, overall good job
+
+TOTAL: (96/100)
