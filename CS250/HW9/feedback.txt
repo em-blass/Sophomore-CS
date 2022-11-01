@@ -1,1 +1,13 @@
+10 points total
 
+=== 1 pt each ===
+- game starts with 12 "blank" images in grid 
+- user clicks first image => flips over
+- user clicks second image => flips over
+- if match => images remain revealed
+- if not match => browser waits 1 second, flips back to blank
+- clicking first image again does NOT count as match
+- matches displayed to user dynamically
+- misses displayed to user dynamically
+- after all revealed: alerts "winner" if matches > misses
+- after all revealed: alerts "loser" otherwise
