@@ -1,1 +1,10 @@
+10 points total
 
+- (1) home page has 3+ links
+- (1) links work correctly
+- (2) images display correctly 
+- (2) images work as links 
+- (1) correct => links to correct page
+- (1) correct page has link to home
+- (1) wrong => links to wrong page 
+- (1) wrong page has link to home10
