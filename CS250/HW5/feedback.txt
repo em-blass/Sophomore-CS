@@ -1,1 +1,10 @@
+10 points total
 
+- (1) form has name field (name)
+- (1) form has age field (age)
+- (1) form has radio buttons (major)
+- (2) form has PL drop-down menu (language)
+- (1) for has slider for number of credit hours (credits)
+- (2) form POSTS to /handle_post
+- (1) works with original app.py
+- (1) works with original response.html
