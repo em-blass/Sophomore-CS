@@ -1,1 +1,9 @@
+10 points total
 
+breathtaking
+
+- (2) months are in grid or table-like layout (i.e., not a top to bottom list)
+- (3) contains all 12 months (with heading, desc, list)
+- (3) each month is uniquely styled 
+- (1) months utilize divs 
+- (1) uses <link> for external stylesheet
