@@ -1,1 +1,8 @@
+10 points total
 
+- (2) prompts user for non-negative, non-zero integer
+- (1) continuously prompts user for valid number
+- (2) program computes all factors of number
+- (2) program displays all factors of number on webpage
+- (1) program computes whether the number is prime
+- (2) program displays primeness on webpage
