@@ -1,0 +1,160 @@
+div.table {
+    display: table;
+}
+
+div.tr {
+    display: table-row;
+}
+
+div.tc {
+    display: table-cell;
+    padding: 5px 10px;
+    font-size: 40px;
+}
+
+p.bodytext {
+    font-size: 20px;
+}
+
+ol.listtext {
+    font-size: 20px;
+    text-align: left;
+}
+
+h2.title {
+    border-style: dotted;
+    border-color: darkkhaki;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#jan {
+    background-color: rosybrown;
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: inset;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+}
+
+#feb {
+    background-color: rgb(143, 151, 188);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: ridge;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#mar {
+    background-color: rgb(151, 188, 143);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: dotted dashed solid double;
+    font-family: "Times New Roman", Times, serif;
+    color: cornflowerblue;
+}
+
+#apr {
+    background-color: rgb(188, 143, 181);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: dotted;
+    border-color: blue;
+    font-family: "Times New Roman", Times, serif;
+    color: yellowgreen;
+}
+
+#may {
+    background-color: rgb(143, 188, 158);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: outset;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: hotpink;
+}
+
+#jun {
+    background-color: rgb(143, 177, 188);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: ridge;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#jul {
+    background-color: rgb(143, 173, 188);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: double;
+    font-family: "Times New Roman", Times, serif;
+    color: yellowgreen;
+}
+
+#aug {
+    background-color: rgb(188, 168, 143);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: dotted;
+    border-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+}
+
+#sep {
+    background-color: rgb(188, 187, 143);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: inset;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#oct {
+    background-color: rgb(143, 188, 165);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: dotted dashed solid double;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hotpink;
+}
+
+#nov {
+    background-color: rgb(143, 183, 188);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: double;
+    font-family: "Times New Roman", Times, serif;
+    color: yellowgreen;
+}
+
+#dec {
+    background-color: rgb(188, 143, 143);
+    padding: 0.5em;
+    border: 1px;
+    border-radius: 10%;
+    text-align: right;
+    border-style: dotted;
+    border-color: blue;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
