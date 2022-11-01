@@ -6,3 +6,5 @@
 - (2) program displays all factors of number on webpage
 - (1) program computes whether the number is prime
 - (2) program displays primeness on webpage
+
+10/10
