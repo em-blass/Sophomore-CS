@@ -1,0 +1,67 @@
+100 points total
+
+---------------------------------------
+My output: 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+When run on test.txt with topN = 5:
+a, 10
+the, 10
+and, 9
+daren, 7
+in, 5
+Array doubles: 7
+
+where test.txt has the following content:
+this is a test file with a short story
+there once was a dragon name daren the destroyer of hope
+who lived alone in an imposing castle in the suburbs of prague
+the castle collapsed and the dragon had to move back
+home with their parents in cincinnati ohio
+once home daren acquired a job at the local dairy queen
+serving blizzards to the community
+unfortunately dragons are not particularly good at
+handling frozen goods
+daren lost his job and took a service position
+at home depot daren excelled at the work and
+moved into middle management met a partner
+married and had firebreathing monster babies
+daren picked up welding as a hobby and created
+several beautiful pieces of metalwork that still
+populate shop windows and homes in the greater
+cincinnati area
+daren ran for a local government position and lost
+to the incumbent
+retired now daren lives in a modest home with the
+family maintaining a beautiful garden and creating
+unintentional house fires every now and again
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+When run on test2.txt with topN = 3:
+test, 5
+word, 4
+another, 2
+Array doubles: 3
+
+where test2.txt has the following content:
+test test test
+test another word word
+word test
+word another very good
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
+
+
+(18/20) code compiles
+-missing semicolon on line 39, compiles after fix
+(10/10) code is clean and readable
+(10/10) code reads in from file 
+(5/5) code parses lines into structs
+(5/5) adds word to array if there isn't already one 
+(5/5) doubles array size if necessary when adding new word
+(5/5) properly increments count if word is in array
+(10/10) doubleArraySize works properly
+(10/10) implements a working sorting algorithm
+(10/10) function to print top n works properly
+(5/10) correct output (includes top n words, number of array doubles, and DO NOT take off for wrong unique words or number of DUP words)
+
+TOTAL: (93/100)
