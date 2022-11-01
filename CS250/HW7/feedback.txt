@@ -6,3 +6,5 @@
 - (2) JS code results in HTML with randomly placed words in grid 
 - (1) has some basic CSS for increased readability 
 - (1) code is well-formed
+
+10/10
