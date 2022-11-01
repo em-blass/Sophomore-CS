@@ -8,3 +8,5 @@
 - (2) form POSTS to /handle_post
 - (1) works with original app.py
 - (1) works with original response.html
+
+10/10
