@@ -1,0 +1,73 @@
+h2 {
+    display: inline;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: red;
+    color: whitesmoke;
+}
+.subtitle {
+    margin-bottom: 30px;
+}
+
+.indexHR {
+    border: 2px solid red;
+}
+
+.carTable {
+    border-spacing: 20px 0;
+    text-align: center; 
+}
+
+.carTableStyled {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.carTableStyled td, .carTableStyled th {
+    text-align: center;
+    padding: 8px;
+}
+
+.carTableStyled tr:nth-child(even) {
+    background: #ff9b9b;
+    color: white;
+}
+
+.styledHeaders {
+    background-color: #616161;
+    color: white;
+}
+
+.carTableListed {
+    border-spacing: 20px 0;
+    text-align: center; 
+}
+
+.one {  
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+  
+.two {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+.Make {
+    color: red;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
