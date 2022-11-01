@@ -7,3 +7,5 @@ breathtaking
 - (3) each month is uniquely styled 
 - (1) months utilize divs 
 - (1) uses <link> for external stylesheet
+
+10/10
