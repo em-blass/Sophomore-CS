@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 05</title>
+    <h2>Homework 05 (Test Form)</h2>
+</head>
+
+<body>
+    <form action="/handle_post" method="POST">
+        
+        <label><b>Name: </b></label>
+        <input type="text" name="name"><br>
+
+        <label><b>Age: </b></label>
+        <input type="number" name="age"><br>
+
+        <p><b>What's your major?</b></p>
+        <input type="radio" name="major" value="computer science">
+        <label>Computer Science</label><br>
+        <input type="radio" name="major" value="mathematics">
+        <label>Mathematics</label><br>
+        <input type="radio" name="major" value="economics">
+        <label>Economics</label><br>
+        <input type="radio" name="major" value="art">
+        <label>Art</label><br>
+        <input type="radio" name="major" value="education">
+        <label>Education</label><br>
+        <input type="radio" name="major" value="not listed">
+        <label>Other (Not listed)</label><br>
+        <br>
+
+        <label><b>Favorite language?</b></label>
+        <select name="language">
+          <option value="javascript">JavaScript</option>
+          <option value="php">PHP</option>
+          <option value="java">Java</option>
+          <option value="golang">Golang</option>
+          <option value="python">Python</option>
+          <option value="c#">C#</option>
+          <option value="C++">C++</option>
+          <option value="erlang">Erlang</option>
+        </select>
+
+        <p><b>How many credits are you taking? (0, 3, ..., 21)</b>
+        <input type="range" name="credits" min="0" max="21" step="3" value="credits"></p><br>
+
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
