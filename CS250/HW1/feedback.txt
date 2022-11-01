@@ -8,3 +8,5 @@
 - (1) correct page has link to home
 - (1) wrong => links to wrong page 
 - (1) wrong page has link to home10
+
+10/10
