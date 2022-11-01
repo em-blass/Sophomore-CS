@@ -1,0 +1,67 @@
+100 points total
+
+---------------------------------------
+My output: 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+with a movies.txt file with
+
+The Hunchback of Notre Dame,3,1996
+Cars,4,2006
+Aladdin,5,1992
+Fantasia,5,1940
+Pocahontas,4,1995
+Peter Pan,4,1953
+The Little Mermaid,5,1989
+Beauty and the Beast,3,1991
+
+Followed by commands:
+
+3 // search for Alladin
+Aladdin
+1 // insert High School Musical
+High School Musical
+1
+2006
+2 // delete leaf
+The Little Mermaid
+1 // insert Shrek
+Shrek
+5
+2001
+2 // delete internal node (two children)
+Cars
+2 // delete root
+The Hunchback of Notre Dame
+4 // print out movies with rating >= 3
+3
+5
+
+I get output at the end (should be in lexicographical order):
+
+====Printed BST====
+Title: Aladdin, Rating: 5, Year: 1992
+Title: Beauty and the Beast, Rating: 3, Year: 1991
+Title: Fantasia, Rating: 5, Year: 1940
+Title: High School Musical, Rating: 1, Year: 2006
+Title: Peter Pan, Rating: 4, Year: 1953
+Title: Pocahontas, Rating: 4, Year: 1995
+Title: Shrek, Rating: 5, Year: 2001
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
+
+
+(15/15) code compiles
+(10/10) code is clean and readable
+(5/5) constructor is implemented properly
+(10/10) destructor is implemented properly (uses postorder)
+(10/10) search method works properly
+(10/10) addMovie works properly
+(5/5) findMin implemented for deleteMovie
+(10/10) deleteMovie works properly
+(5/5) findMovie implemented properly
+(10/10) printMoviesRating implemented properly
+(7/10) output matches my own
+-program exits after deleting "The Hunchback of Notre Dame"
+
+TOTAL: (97/100)
