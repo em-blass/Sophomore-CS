@@ -1,1 +1,15 @@
+10 points total
 
+- (1) website has navbar 
+- (1) navbar hyperlinks work correctly 
+- (1) navbar is styled
+X (1) navbar links change on hover
+=> -1: not implemented 
+X (1) navbar changes after visited
+=> -1: not implemented
+- (1) data is at least 5x5
+- (1) website contains plain table
+- (1) website contains stylized table
+- (1) website contains list page
+X (1) list page uses custom bullets
+=> -1: not implemented
