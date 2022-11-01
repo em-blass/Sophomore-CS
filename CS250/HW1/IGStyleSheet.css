@@ -1,0 +1,41 @@
+h1 {
+  color: navy;
+  margin-left: 20px;
+  font-family: "Papyrus";
+  text-shadow: 2px 2px #888888;
+}
+
+h2 {
+  color: darkred;
+  margin-left: 20px;
+  font-family: "Copperplate";
+}
+
+h2.win, h2.lose {
+  color: white;
+}
+
+body.endWin {
+  background-color: green;
+}
+
+body.endLose {
+  background-color: red;
+}
+
+body.normal { 
+  border: 5px solid red;
+}
+
+img.index {
+  border-radius: 50%;
+  box-shadow: 5px 10px #888888;
+}
+
+img.winImage {
+  border: 2px solid rgb(126, 255, 154);
+}
+  
+img.loseImage {
+  border: 2px solid rgb(255, 126, 126);
+}
