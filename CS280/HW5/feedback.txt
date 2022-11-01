@@ -1,0 +1,27 @@
+100 points total
+
+---------------------------------------
+
+Problem 1 (20/20 points):
+	(5/5 points): Inserts 6 into tree correctly
+	(5/5 points): Applies Case 1
+	(5/5 points): Applies Case 2 (or another case if first step is messed up)
+	(5/5 points): Applies Case 3 (or another case if earlier steps are wrong)
+
+Problem 2 (10/20 points):
+	(/5 points): Properly deletes 12
+	(5/5 points): Uses Case 2
+	(/5 points): Properly deletes 13
+	(5/5 points): Just does a recolor
+
+Problem 3 (30/30 points):
+	(10/10 points): provides an example or attempts to offer an explanation showing that it will always result in same tree
+	(10/10 points): example is done correctly
+	(10/10 points): example results in different before/after tree
+
+Problem 4 (30/30 points):
+	(10/10 points): provides an example or attempts to offer an explanation showing that it will always result in same tree
+	(10/10 points): example is done correctly
+	(10/10 points): example results in different before/after tree
+
+TOTAL: (90/100)
