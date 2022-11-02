@@ -1,7 +1,7 @@
 Sophomore year 2022-2023
 _________________________
 
-    Fall Semester:
+   Fall Semester:
 
 _________________________
 
