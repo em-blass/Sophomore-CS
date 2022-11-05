@@ -1,1 +1,16 @@
+10 points total
 
+=== 1 pt each ===
+- has input element for user to select date
+- has button element to click
+- button click leads to AJAX call
+- AJAX call makes GET request to NASA's APOD API
+- GET request made for date selected
+- parses JSON response from server
+- after response from server: displays APOD's title
+- after response from server: displays APOD's image
+- after response from server: displays APOD's explanation 
+X handles invalid requests to NASA's APOD API (e.g., Jan 1 1995)
+=> -1: no error message displayed
+
+9/10
