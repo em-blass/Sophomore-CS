@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Update{% endblock %}
+
+{% block content %}
+    <form action="/update/{{ id }}" method="POST">
+        <br>
+        Car Make:<input type="text" name="year" value="{{ year }}">
+        <br>
+        Car Make:<input type="text" name="brand" value="{{ brand }}">
+        <br>
+        Car Model:<input type="text" name="model" value="{{ model }}">
+        <br>
+        Price:<input type="text" name="price" value="{{ price }}">
+        <br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+{% endblock %}

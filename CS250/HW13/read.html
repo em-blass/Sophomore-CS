@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Table{% endblock %}
+
+{% block content %}
+
+    <table class="styled-table">
+        <th>Year</th>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Price</th>
+        <th></th>
+
+        {% for member in list %}
+            <tr>
+                <td>{{ member.year }}</td>
+                <td>{{ member.make }}</td>
+                <td>{{ member.model }}</td>
+                <td>{{ member.price }}</td>
+                <td><a href="/update/{{ member.id }}">Update</a><br><a href="/delete/{{ member.id }}">Delete</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
