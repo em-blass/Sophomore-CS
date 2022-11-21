@@ -14,3 +14,5 @@ X /N: has input mechanism for N
 X /N: sets link href /isPrime/N dynamically 
 => -0.75: 404 (no such route implemented) 
 - has some basic CSS styling
+
+7.75/10
