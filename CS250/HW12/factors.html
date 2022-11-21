@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %} Factors {% endblock %}
+
+{% block content  %}
+<h2>Factorize This!</h2>
+<p>Enter a number to compute its factors</p>
+
+<div>
+    <form action="/factors" method="POST"><br>
+        <h4>Number:</h4>
+        <input type="number" name="numInput" min="1">
+        <input type="submit" value="Factorize">
+    </form>
+
+    <ul>
+        {% for item in numArray %}
+            <li> {{item}} </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

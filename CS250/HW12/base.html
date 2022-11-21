@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <center>
+        <head>
+            <title>{% block title %}{% endblock %}</title>
+            <link rel="stylesheet" href="/static/stylesheet.css">
+        </head>
+
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/factors">Factors</a></li>
+                    <li><a href="/wordCount">Word Count</a></li>
+                </ul>
+            </nav>
+            <h1>Factors and Word Count Web App</h1>
+            <hr><br>
+
+            {% block content %}
+            {% endblock %}
+        </body>
+    </center>
+</html>
