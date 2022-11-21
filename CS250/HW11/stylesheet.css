@@ -1,0 +1,13 @@
+h1, p {
+    color: rgb(255, 136, 0);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a {
+    color: yellow;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
