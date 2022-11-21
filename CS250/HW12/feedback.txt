@@ -1,1 +1,15 @@
+10 points total
 
+=== 1 pt each === 
+- has nav bar
+- uses jinja template inheritance  
+- / route => home page 
+- /factors GET: display form
+- /factors POST: computes factors
+- /factors POST: displays factors as list
+- /wordCount GET: displays form
+- /wordCount POST: computes frequency of each word 
+- /wordCount POST: displays table of word-frequency pairs 
+X /wordCount POST: table is sorted by word
+
+9/10
