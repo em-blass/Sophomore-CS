@@ -1,1 +1,16 @@
+10 points total
 
+=== 1 pt each ===
+- /: has input mechanism for integer N
+- /: sets link href to /isPrime/N dynamically
+- /isPrime/N: correctly computes N's primeness on server
+- /isPrime/N: displays N 
+- /isPrime/N: displays whether N is prime or not
+- /isPrime/N: has "back" link to /N
+X /N: default link href to /isPrime/N
+=> -0.75: 404 (no such route implemented) 
+X /N: has input mechanism for N
+=> -0.75: 404 (no such route implemented) 
+X /N: sets link href /isPrime/N dynamically 
+=> -0.75: 404 (no such route implemented) 
+- has some basic CSS styling
