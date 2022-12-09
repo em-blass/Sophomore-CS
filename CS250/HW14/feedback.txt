@@ -1,4 +1,5 @@
-nice work!
+10 points total. nice work!
+
 === 1 pt each === 
 - shows nav bar on every page; displays routes depending on whether use logged in
 - /create (GET): displays form to create user
