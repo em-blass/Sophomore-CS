@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/stylesheet.css">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/">HOME</a>
+
+        {% if Logged == true %}
+        <a href="/view_all">VIEW ALL</a>
+        <a href="/update">UPDATE</a>
+        <a href="/logout">LOGOUT</a>
+        {% endif %}
+
+        {% if Logged == false %}
+        <a href="/create">CREATE NEW USER</a>
+        <a href="/login">LOGIN</a>
+        {% endif %}
+    </nav>
+
+    <h1>{% block header %}{% endblock %}</h1>
+    
+    {% block content %}{%endblock%}
+</body>
+</html>

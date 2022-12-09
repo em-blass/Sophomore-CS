@@ -1,0 +1,22 @@
+a {
+    color: rgb(17, 0, 129);
+    border-width:3px;
+    border-style:solid;
+    border-color:#9a7192;
+}
+
+h1, h2 {
+    color: rgb(255, 0, 0);
+}
+
+table {
+    border: 2px solid Black;
+    border-collapse: collapse;
+    color: rgb(86, 0, 0);
+}
+
+td, th {
+    border: 2px solid Black;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,17 @@
+{% extends "base.html" %} 
+{% block title %}LOGIN{% endblock %}
+{% block header %}{{ errorMessage }}{% endblock %}
+
+{% block content %}
+<form action="/login" method="POST">
+    <br>
+
+    Username: <input type="text" name="username" required>
+    <br>
+
+    Password: <input type="password" name="password" required>
+    <br>
+
+    <input type="submit" value="Submit" name="Login">
+</form>
+{% endblock %}
