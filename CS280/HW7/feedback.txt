@@ -1,1 +1,53 @@
 
+100 points total
+
+Graph that I am testing on (I add each of these cities/edges):
+A-->C(3) B(2) 
+B-->A(2) D(3) 
+C-->A(3) F(6) 
+D-->B(3) E(4) 
+E-->D(4) 
+F-->C(6) 
+
+I run a BFT starting at A
+Expecting something like: A C B F D E 
+
+I run a DFT starting at A
+Expecting something like: A B D E C F 
+
+I run a shortest path (Dijkstra's) from A to E
+Expecting something like: 
+Dijstra's returned a path of weight 9 from a to e
+Path: a b d e 
+---------------------------------------
+
+Destructor (3/5 points) -- need to delete adjacent vertices as well
+
+Inserting a vertex (10/10 points)
+
+Inserting an edge (20/20 points):
+	(/10 points): adds edge properly
+	(/10 points): adds edge in both directions (algorithm is reasonable)
+
+Searching (10/10 points)
+
+BFT (10/10 points):
+	(/8 points): implemented properly
+	(/2 points): resets struct member variables after modifying
+
+DFT (10/10 points):
+	(/8 points): implemented properly
+	(/2 points): resets struct member variables after modifying
+
+Dijkstra's (0/20 points):
+	(/10 points): algorithm implemented properly
+	(/3 points): updates parent and distance appropriately
+	(/4 points): shortest path function implemented properly
+	(/3 points): resets all parents and distances in shortest path
+
+Output matches my own (15/15 points):
+	(5/5 points): Printing after adding all vertices/edges
+	(5/5 points): BFT
+	(5/5 points): DFT
+
+TOTAL: (78/100)
