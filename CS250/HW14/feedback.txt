@@ -1,1 +1,14 @@
+nice work!
+=== 1 pt each === 
+- shows nav bar on every page; displays routes depending on whether use logged in
+- /create (GET): displays form to create user
+- /create (POST): attempts to create user/ ; logs user in; redirects to /
+- /login (GET): displays login form
+- /login (POST): attempts to log user in; redirects to /
+- /view_all: displays all user info only if user logged in
+- /update (GET): display form for current, new password
+- /update (POST): attempts to update user's password; redirects to / 
+- /logout: logs user out; only if logged in  
+- app handles common HTTP errors (e.g., 404)
 
+10/10
