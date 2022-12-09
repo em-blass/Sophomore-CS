@@ -1,3 +1,5 @@
+10 points total
+
 === 1 pt each === 
 - sqlite database table has >= 4 columns
 - web app uses template inheritance
