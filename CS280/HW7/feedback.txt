@@ -27,7 +27,7 @@ Inserting a vertex (10/10 points)
 
 Inserting an edge (20/20 points):
 	(/10 points): adds edge properly
-	(/10 points): adds edge in both directions (algorithm is reasonable)
+	(/10 points): adds edge in both directions
 
 Searching (10/10 points)
 
