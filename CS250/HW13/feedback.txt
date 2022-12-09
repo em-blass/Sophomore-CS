@@ -1,1 +1,13 @@
+=== 1 pt each === 
+- sqlite database table has >= 4 columns
+- web app uses template inheritance
+- nav bar with links to /, /create, /read (only)
+- / route: basic instructions for user
+- /create (GET): renders form
+- /create (POST): creates entry in database
+- /read (GET): renders table of all database entries
+- /update/<id> (GET): renders form with data from entry id
+- /update/<id> (POST): updates database entry with id 
+- /delete/<id> (GET): deletes entry w/ id from database
 
+10/10
