@@ -1,1 +1,50 @@
 
+100 points total
+
+Problem 1 (26/30 points):
+	1.a (10/10 points): should get 5
+	1.b (7/10 points): should get 7 or 8 (depending on rounding)
+	1.c (9/10 points):
+		(4/5 points): gets 10
+		(5/5 points): justifies their solution should mention that the floor of a single integer digit must
+			produce ints between 0 and 9 (thus a size of 10)
+
+Problem 2 (44/50 points):
+For 2.a and 2.b I got the following indices from the hashing function:
+3, 6, 4, 4, 3, 7, 7
+
+The hash table for linear probing looks like this for me:
+[-,-,-,-,-,-,-,-,-,-]
+[-,-,-,ABCA,-,-,-,-,-,-]
+[-,-,-,ABCA,-,-,DDZ,-,-,-]
+[-,-,-,ABCA,CZXY,-,DDZ,-,-,-]
+[-,-,-,ABCA,CZXY,-,DDZ,MNOP,-,-]
+[-,-,-,ABCA,CZXY,-,DDZ,MNOP,-,WWY]
+[AAC,-,-,ABCA,CZXY,-,DDZ,MNOP,-,WWY]
+[AAC,-,BBA,ABCA,CZXY,-,DDZ,MNOP,-,WWY]
+
+For chaining, you should just store elements in the same index if they collide
+
+	2.a (19/20 points):
+		(10/10 points): shows each step
+		(9/10 points): correct
+	2.b (20/20 points):
+		(10/10 points): shows each step
+		(10/10 points): correct
+	2.c (5/10 points):
+		(0/5 points): chaining
+		(5/5 points): justifies should talk about trying to insert more elements than we have storage for using
+			linear probing. Need chaining (in this case) to accomodate more than one element in some indices
+
+Problem 3 (19/20 points):
+	3.a (5/5 points): chooses unique integer identifier (dog_id -- hopefully) (3 points) and justifies (2 points)
+	3.b (5/5 points): defines a valid hash function that produces a non-negative integer value
+	3.c (5/5 points): chooses appropriate collision resolution (3 points) and justifies (2 points)
+		- Collision resolution should be based on the size of their table or their hash function
+		- if no collision detection is necessary, explains why (e.g. the case where they use
+			the dog_id for the hash key and don't need to handle collisions. they better talk about the table
+			size being huge -- 10,000 elements!)
+	3.d (4/5 points): chooses appropriate size (3 points) and justifies (2 points)
+
+
+TOTAL: (89/100)
